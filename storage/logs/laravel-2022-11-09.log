@@ -1,0 +1,10 @@
+[2022-11-09 11:16:06] production.ERROR: There are no commands defined in the "generate" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"generate\" namespace. at /home/jmalv/php-laravel-docker/vendor/symfony/console/Application.php:606)
+[stacktrace]
+#0 /home/jmalv/php-laravel-docker/vendor/symfony/console/Application.php(659): Symfony\\Component\\Console\\Application->findNamespace('generate')
+#1 /home/jmalv/php-laravel-docker/vendor/symfony/console/Application.php(237): Symfony\\Component\\Console\\Application->find('generate:key')
+#2 /home/jmalv/php-laravel-docker/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/jmalv/php-laravel-docker/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/jmalv/php-laravel-docker/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/jmalv/php-laravel-docker/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
